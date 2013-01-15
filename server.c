@@ -16,7 +16,9 @@
 #include <netinet/in.h>
 #include <fcntl.h>
 #include <arpa/inet.h>
+#ifndef __APPLE__
 #include <malloc.h>
+#endif
 #include <unistd.h>
 
 /* 
